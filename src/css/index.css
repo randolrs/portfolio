@@ -17,6 +17,19 @@ header{
   color: #111;
 }
 
+.header{
+  margin-bottom: 50px;
+}
+
+.header-option{
+  color: #999;
+}
+
+.header-option:hover{
+  text-decoration: none;
+  color: #666;
+}
+
 p{
   line-height: 1.5;
   font-size: 22px;
@@ -54,7 +67,7 @@ p{
 }
 
 .content{
-  padding: 100px 20px;
+  padding: 50px 20px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -164,6 +177,12 @@ ul.main-nav{
 .item:hover{
 	cursor: pointer;
 	background: #fdfdfd;
+  border: 1px solid #eaa;
+}
+
+h5.title{
+    font-size: 28px;
+    color: #333;
 }
 
 /* initial mounting */

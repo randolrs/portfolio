@@ -8,8 +8,8 @@ class Header extends Component {
     return (
 
       <div className="header">
-        <NavLink exact to="/"><span className="glyphicon glyphicon-arrow-left"></span>Return to Home</NavLink>
-        <NavLink exact to="/me/about"><span className="glyphicon glyphicon-arrow-right"></span>About</NavLink>
+        <NavLink exact to="/" className="header-option"><span className="glyphicon glyphicon-arrow-left"></span>Return to Home</NavLink>
+        <NavLink exact to="/me/about" className="header-option"><span className="glyphicon glyphicon-arrow-right"></span>About</NavLink>
       </div>
 
     );

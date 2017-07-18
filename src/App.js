@@ -21,9 +21,9 @@ const App = () => (
 
     <div>
     
-      <Route path="/me" component={Header} />
-
       <div className="content">
+
+        <Route path="/me" component={Header} />
 
         <Switch>
           <Route exact path="/" component={Home} />
