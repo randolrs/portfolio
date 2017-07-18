@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './images/logo.svg';
 import './css/App.css';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import ReactCSSTransitionGroup from '../node_modules/react-addons-css-transition-group';
 
 import {
   BrowserRouter,
@@ -20,7 +20,7 @@ const App = () => (
   <BrowserRouter>
 
     <div>
-    
+
       <div className="content">
 
         <Route path="/me" component={Header} />
